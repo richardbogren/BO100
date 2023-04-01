@@ -1,0 +1,201 @@
+/* BOFORENINGEN */
+
+@media (orientation: portrait) {
+
+    .top_nav {
+        width: 99vw !important;
+        margin-left: 1vw !important;
+        height: 2vh !important;
+        top: 2vh !important;
+        position: fixed;
+    }
+
+    .top_nav_box {
+        width: 25vw !important;
+        font-size: 3vw !important;
+    }
+
+    .main_box {
+        width: 99vw;
+        margin-left: 1vw;
+        flex-direction: column;
+        margin-top: 2vh;
+    }
+
+    .main_left {
+        width: 99vw;
+        margin-left: 1vw;
+
+        height: 7vh;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .left_box {
+        width: 99vw;
+        margin-left: 1vw;
+        flex-direction: row;
+        height: 5vh;
+    }
+
+    .left_box_menu_item {
+        width: 25vw;
+        display: flex;
+        font-size: 3vw;
+        justify-content: flex-start;
+    }
+
+    .main_center {
+        width: 99vw;
+        margin-left: 1vw;
+
+    }
+
+    h1 {
+        font-size: 5vw;
+    }
+
+    h2 {
+        font-size: 4vw;
+    }
+
+    p {
+        font-size: 3vw;
+        width: 98%;
+    }
+
+    #matter-container {
+        width: 101vw !important;
+    }
+
+    #modal {
+        height: 95vh !important;
+        width: 90vw !important;
+        flex-direction: column !important;
+    }
+
+    #modal h1 {
+        font-size: 5vw !important;
+        margin-top: 5vh !important;
+    }
+
+    #modal h2 {
+        font-size: 4vw !important;
+        margin-bottom: 0vh !important;
+    }
+
+    #modal p {
+        font-size: 3vw !important;
+        margin-bottom: 5vh !important;
+    }
+
+    #modal b {
+        font-size: 3vw !important;
+    }
+
+    .modal_container {
+        width: 89% !important;
+        height: 50% !important;
+    }
+
+    input,
+    textarea {
+        font-size: 3vw !important;
+    }
+
+    button {
+        font-size: 3vw !important;
+        margin-top: 2vh;
+    }
+}
+
+
+/**/
+
+/* Huset */
+
+@media (orientation: portrait) {
+
+    .center_container {
+        flex-direction: column;
+        width: 99vw;
+        margin-left: 1vw;
+    }
+
+    .center_container_left,
+    .center_container_right {
+        width: 100%;
+    }
+
+    #historien_hyperlink {
+        margin-bottom: 2vh;
+    }
+
+}
+
+
+/**/
+
+
+/* Landing */
+
+
+
+@media (orientation:portrait) {
+
+    .desktop_landing {
+        display: none !important;
+    }
+
+    #mobile-container {
+        width: 100vw;
+        position: absolute;
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-direction: column;
+        pointer-events: none;
+        padding-left: 1vw;
+        transition: all 500ms;
+    }
+
+    #mobile-container div {
+        width: 99vw;
+        margin-left: 0vw;
+    }
+
+    .landing_main_box {
+        margin-top: 4vh;
+        margin-left: 1vw !important;
+    }
+
+    a {
+        color: black;
+    }
+
+    .landing_center {
+        height: 90vh;
+        width: 100% !important;
+    }
+
+    .landing_center h2 {
+        margin-left: 1vw;
+    }
+
+    .landing_matter {
+        height: 101vh !important;
+    }
+
+    .landing_header {
+        font-size: 30vw !important;
+        font-weight: 300;
+        margin-top: -3vh;
+        margin-left: -2.5vw !important;
+    }
+
+    .landing_box {
+        width: 100%;
+        font-size: 10vw;
+    }
+}
